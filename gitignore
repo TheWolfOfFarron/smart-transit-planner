@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Do not ignore .gitignore itself
+!.gitignore
+
+# Do not ignore the src folder and its contents
+!client
+!server
+!src/
+!src/**/*
