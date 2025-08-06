@@ -61,15 +61,8 @@ The GUI supports **multilingual functionality** (minimum 3 international languag
   - `Users`: Stores authenticated users
   - `Transport`: Stores public transport lines
 
-### 3. **Use Case Diagram**
 
-- Depicts operations per user type (Traveler, Employee, Administrator)
-
-### 4. **Activity Diagrams**
-
-- Represent all possible user actions and navigation logic
-
-### 5. **Sequence Diagrams**
+### 3. **Sequence Diagrams**
 
 Includes diagrams for:
 - Login
@@ -120,15 +113,4 @@ Data export is supported in:
 
 ---
 
-## 📚 Bibliography
 
-- [Hibernate Tutorial – JavaTpoint](https://www.javatpoint.com/hibernate-tutorial)
-- [PostgreSQL Official Site](https://www.postgresql.org/)
-
----
-
-## 🧑‍💻 Author
-
-- **Name**: Bogdan Andrei
-- **Group**: 30233
-- **Course Project**: Tema 3
