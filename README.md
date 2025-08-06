@@ -45,37 +45,6 @@ The GUI supports **multilingual functionality** (minimum 3 international languag
 
 
 
-## 🔧 UML Diagrams
-
-### 1. **Class Diagrams**
-
-- **Client Side**: `Start` class launches the client on a separate thread; the `Client` class handles communication.
-- **Server Side**: Structured in three layers:
-  - **Repo + Database** (persistence)
-  - **BLL** (business logic)
-  - **Server/ClientHandler** (communication layer)
-
-### 2. **EERD (Enhanced ER Diagram)**
-
-- Two tables:
-  - `Users`: Stores authenticated users
-  - `Transport`: Stores public transport lines
-
-
-### 3. **Sequence Diagrams**
-
-Includes diagrams for:
-- Login
-- Filtering users
-- CRUD operations for:
-  - Managers
-  - Employees
-- Displaying statistics
-- Searching for transport lines
-- Finding optimal routes
-
----
-
 ##  Application Overview
 
 ### Launch Flow
