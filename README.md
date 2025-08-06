@@ -1,6 +1,6 @@
-# 📍 Public Transport Route Optimizer
+#  Public Transport Route Optimizer
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Develop a desktop application for optimizing public transport routes within a city. The system supports three types of users:
 
@@ -23,7 +23,7 @@ The GUI supports **multilingual functionality** (minimum 3 international languag
 
 ---
 
-## 🛠 Tools & Technologies Used
+##  Tools & Technologies Used
 
 | Tool | Purpose |
 |------|---------|
@@ -33,7 +33,7 @@ The GUI supports **multilingual functionality** (minimum 3 international languag
 | **Hibernate** | ORM framework for Java–Database integration |
 | **JUnit 5** | Unit testing framework |
 
-### 🧩 Design Patterns Implemented
+###  Design Patterns Implemented
 
 | Pattern | Application |
 |--------|-------------|
@@ -43,57 +43,9 @@ The GUI supports **multilingual functionality** (minimum 3 international languag
 | **Singleton** | Ensures single instance for central components |
 | **Builder** | Used for complex object creation logic |
 
----
 
-## 🧪 Justification for Using Java
 
-- ✅ Easy to learn, debug, and maintain
-- ✅ Object-oriented, modular design
-- ✅ Platform-independent (Write once, run anywhere)
-- ✅ Rich library and community support
-- ✅ Ideal for cross-platform desktop applications
-
----
-
-## 🔧 UML Diagrams
-
-### 1. **Class Diagrams**
-
-- **Client Side**: `Start` class launches the client on a separate thread; the `Client` class handles communication.
-- **Server Side**: Structured in three layers:
-  - **Repo + Database** (persistence)
-  - **BLL** (business logic)
-  - **Server/ClientHandler** (communication layer)
-
-### 2. **EERD (Enhanced ER Diagram)**
-
-- Two tables:
-  - `Users`: Stores authenticated users
-  - `Transport`: Stores public transport lines
-
-### 3. **Use Case Diagram**
-
-- Depicts operations per user type (Traveler, Employee, Administrator)
-
-### 4. **Activity Diagrams**
-
-- Represent all possible user actions and navigation logic
-
-### 5. **Sequence Diagrams**
-
-Includes diagrams for:
-- Login
-- Filtering users
-- CRUD operations for:
-  - Managers
-  - Employees
-- Displaying statistics
-- Searching for transport lines
-- Finding optimal routes
-
----
-
-## 🖥 Application Overview
+##  Application Overview
 
 ### Launch Flow
 
@@ -107,13 +59,13 @@ Includes diagrams for:
 
 ---
 
-## 🌐 Multilingual Support
+##  Multilingual Support
 
 The application supports at least three international languages, using an observer pattern for UI language selection. This ensures flexibility and better user accessibility.
 
 ---
 
-## 📊 Statistics and Data Export
+##  Statistics and Data Export
 
 Employees can view data visualizations in various chart formats:
 
@@ -130,15 +82,4 @@ Data export is supported in:
 
 ---
 
-## 📚 Bibliography
 
-- [Hibernate Tutorial – JavaTpoint](https://www.javatpoint.com/hibernate-tutorial)
-- [PostgreSQL Official Site](https://www.postgresql.org/)
-
----
-
-## 🧑‍💻 Author
-
-- **Name**: Bogdan Andrei
-- **Group**: 30233
-- **Course Project**: Tema 3
