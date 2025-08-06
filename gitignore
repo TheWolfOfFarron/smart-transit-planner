@@ -1,15 +1,11 @@
 # Ignore everything
 *
 
-# Do not ignore this gitignore file
+# Do not ignore .gitignore itself
 !.gitignore
 
-# Unignore client/src and its contents
-!client/
-!client/src/
-!client/src/**/*
-
-# Unignore server/src and its contents
-!server/
-!server/src/
-!server/src/**/*
+# Do not ignore the src folder and its contents
+!client
+!server
+!src/
+!src/**/*
